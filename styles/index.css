@@ -214,13 +214,13 @@
   align-items: center;
 }
 
-#social-media-description {
+.social-media-description {
   width: 1320px;
   height: 326px;
   text-align: center;
 }
 
-#social-media-description h3 {
+.social-media-description h3 {
   /* We always make sure to provide you with good food */
   width: 805px;
   height: 128px;
@@ -233,7 +233,7 @@
   margin: auto;
 }
 
-#social-media-description p {
+.social-media-description p {
   color: rgba(16, 16, 16, 1);
   opacity: 0.6;
   font-family: Work Sans;
@@ -245,7 +245,7 @@
   margin: 24px auto 48px auto;
 }
 
-#social-media-description h4 {
+.social-media-description h4 {
   color: rgba(16, 16, 16, 1);
   opacity: 0.7;
   font-family: Work Sans;
@@ -257,19 +257,36 @@
   margin: 30px auto;
 }
 
-#social-media-icon img {
-  padding: 20px;
+.social-media-description .thick {
+opacity: 0.6;
 }
 
-#social-media-description .thick {
-  height: 2px;
-  background-color: black;
-  border: none;
+.social-media-icon img {
+  padding: 20px;
 }
 
 #about {
   width: 1920px;
   height: 671px;
-  display: flex;
-  justify-content: space-around;
+}
+
+#about-image {
+  width: 50%;
+}
+
+#about-image img {
+  width: 100%;
+  /* Image takes 100% of parent's width */
+  height: auto;
+  /* Height adjusts to maintain aspect ratio */
+  display: block;
+  /* Removes extra space below the image */
+}
+
+.about-description {
+  width: 50%;
+  text-align: center;
+}
+.about-description img {
+  padding: 20px;
 }
