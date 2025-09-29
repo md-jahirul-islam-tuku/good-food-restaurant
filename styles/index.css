@@ -258,7 +258,7 @@
 }
 
 .social-media-description .thick {
-opacity: 0.6;
+  opacity: 0.6;
 }
 
 .social-media-icon img {
@@ -286,4 +286,11 @@ opacity: 0.6;
 .about-description {
   width: 50%;
   text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  background: rgba(82, 195, 3, 0.15);
+  color: rgba(16, 16, 16, 1);
 }
