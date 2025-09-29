@@ -65,7 +65,7 @@
 }
 
 
-#btn {
+.btn {
   padding: 21px 32px 21px 32px;
   background: rgba(82, 195, 3, 1);
   border: none;
@@ -197,17 +197,79 @@
   padding: 0 10px;
 }
 
-#card-box button {
-  border-radius: 8px;
-  background: rgba(82, 195, 3, 1);
-  padding: 21px 32px 21px 32px;
-  border: none;
-  color: rgba(255, 255, 255, 1);
+#about {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+#social-media {
+  /* image 2 */
+  width: 1932px;
+  height: 671px;
+  background: url("../assets/social-bg.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#social-media-description {
+  width: 1320px;
+  height: 326px;
+  text-align: center;
+}
+
+#social-media-description h3 {
+  /* We always make sure to provide you with good food */
+  width: 805px;
+  height: 128px;
+  color: rgba(16, 16, 16, 1);
   font-family: Work Sans;
-  font-size: 20px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  margin: auto;
+}
+
+#social-media-description p {
+  color: rgba(16, 16, 16, 1);
+  opacity: 0.6;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px auto 48px auto;
+}
+
+#social-media-description h4 {
+  color: rgba(16, 16, 16, 1);
+  opacity: 0.7;
+  font-family: Work Sans;
+  font-size: 32px;
   font-weight: 600;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
-  cursor: pointer;
+  margin: 30px auto;
+}
+
+#social-media-icon img {
+  padding: 20px;
+}
+
+#social-media-description .thick {
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+
+#about {
+  width: 1920px;
+  height: 671px;
+  display: flex;
+  justify-content: space-around;
 }
