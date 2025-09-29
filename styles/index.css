@@ -262,7 +262,7 @@ opacity: 0.6;
 }
 
 .social-media-icon img {
-  padding: 20px;
+  margin: 20px;
 }
 
 #about {
@@ -286,7 +286,4 @@ opacity: 0.6;
 .about-description {
   width: 50%;
   text-align: center;
-}
-.about-description img {
-  padding: 20px;
 }
